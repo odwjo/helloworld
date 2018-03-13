@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maxi(int a,int b){
+inline int maxi(int a,int b){
 	return a>b ? a:b;
 }
 
